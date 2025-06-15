@@ -8,8 +8,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ## Links
 
-- [Solution page]()
-- [Live site]()
+- [Solution page](https://www.frontendmentor.io/solutions/order-summary-component-aVP9o92SvL)
+- [Live site](https://risaysky.github.io/Frontend-Mentor-Order-summary-component/)
 
 ### Built with
 
