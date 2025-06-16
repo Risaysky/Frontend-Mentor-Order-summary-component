@@ -3,6 +3,7 @@
     --bright-blue: hsl(245, 75%, 52%);
     --very-pale-blue: hsl(225, 100%, 98%);
     --desaturated-blue: hsl(224, 23%, 55%);
+    --transparent-desaturated-blue: hsla(224, 23%, 55%, .25);
     --dark-blue: hsl(223, 47%, 23%);
     --white: white;
 }
@@ -37,6 +38,10 @@ img {
 
 body {
     background-color: var(--pale-blue);
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: repeat-x;
+    background-position: top center;
+    background-size: max(auto, 100vw);
     font-family: "Red Hat Display", sans-serif;
     font-weight: 500;
     min-block-size: 100vh;
@@ -51,6 +56,7 @@ body {
     border-radius: 20px;
     margin-inline: 1.5rem;
     padding-block-end: clamp(2rem, 0.333rem + 7.111vw, 3rem);
+    box-shadow: 0 1.25rem 2rem var(--transparent-desaturated-blue);
 }
 
 .summary {
