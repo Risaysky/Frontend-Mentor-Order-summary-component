@@ -56,7 +56,7 @@ body {
     border-radius: 20px;
     margin-inline: 1.5rem;
     padding-block-end: clamp(2rem, 0.333rem + 7.111vw, 3rem);
-    box-shadow: 0 1.25rem 2rem var(--transparent-desaturated-blue);
+    box-shadow: 0 1.5rem 2rem -1rem var(--transparent-desaturated-blue);
 }
 
 .summary {
