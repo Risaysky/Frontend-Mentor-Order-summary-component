@@ -81,7 +81,7 @@ body {
 
 .plan {
     background-color: var(--very-pale-blue);
-    margin-inline: 1.375rem;
+    margin-inline: min(6vw, 3.375rem);
     padding: clamp(1rem, 0.167rem + 3.556vw, 1.5rem);
     justify-content: space-between;
     align-items: center;
@@ -136,7 +136,7 @@ body {
     background-color: var(--bright-blue);
     margin-block-start: clamp(1.5rem, 1.083rem + 1.778vw, 1.75rem);
     margin-block-end: clamp(1.5rem, 0.667rem + 3.556vw, 2rem);
-    margin-inline: 1.375rem;
+    margin-inline: min(6vw, 3.375rem);
     padding-block: .875rem;
     border-radius: 10px;
     font-weight: 700;
